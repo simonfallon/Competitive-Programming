@@ -1,7 +1,8 @@
 // This file contains the structs and methods related to 3D Geometry in Competitive Programming
 // The structs provide a way to represent 3D objects such as Points, Planes, 
 // alternative coordinates systems, and lines. Each of them has its own methods to compute
-// and find important and frequently asked things such as distances, angles, projections, reflections and so on
+// and find important and frequently asked things such as distances, angles, projections, 
+// reflections and so on. Most of them were taken from https://vlecomte.github.io/cp-geo.pdf
 
 #include <bits/stdc++.h>
 #define fi first
