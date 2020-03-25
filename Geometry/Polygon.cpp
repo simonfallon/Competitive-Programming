@@ -1,6 +1,7 @@
 // This file contains some basic algorithms on Polygons and sets of points. 
 // Checking whether a polygon is convex, Computing the area of a polygon 
-// checking whether a point lies inside a convex polygon, and finding the convex Hull of a set of points
+// checking whether a point lies inside a convex polygon, and finding the convex Hull
+// of a set of points. Most of them were taken from https://vlecomte.github.io/cp-geo.pdf
 
 #include <bits/stdc++.h>
 #define fi first
