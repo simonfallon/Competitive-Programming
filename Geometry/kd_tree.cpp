@@ -62,6 +62,6 @@ struct KDTree {
 		return best;
 	}
 
-	pair<ll,pt> nearest(pt p){return search(p,root);}
-	pair<ll,pt> nearest2(pt p, ll dist){return search2(p,root,dist);}
+	pair<ll,pt> nearest(pt p){return search(p,root);}			///query for nearest point given a point
+	pair<ll,pt> nearest2(pt p, ll dist){return search2(p,root,dist);}	///query for second nearest point given a point and the nearest distance
 };
