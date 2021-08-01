@@ -51,7 +51,7 @@ struct vantage_pt_tree{
 		}
 	}
 
-	vector<pt> k_nn(pt p, int k){
+	vector<pt> k_nn(pt p, int k){			/// query for the k-nearest neighbours given a point
 		k_nn(root, p, k);
 		vector<pt> ans;
 		for (; !que.empty(); que.pop())
